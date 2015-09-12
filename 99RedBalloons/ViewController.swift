@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     func createBalloons(number:Int) {
         for x in 1...number {
             var myBalloon = balloon()
-            let randomBalloonImageIndex = Int(arc4random_uniform(UInt32(3)))
+            let randomBalloonImageIndex = Int(arc4random_uniform(UInt32(4)))
             
             switch randomBalloonImageIndex {
             case 0:
