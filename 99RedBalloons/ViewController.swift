@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var balloonsLabel: UILabel!
 
     var balloonArray:[balloon] = []
+    var currentIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,8 +23,8 @@ class ViewController: UIViewController {
         createBalloons(99)
         
         // Set the initial image and label
-        self.balloonImage.image = balloonArray[0].image
-        self.balloonsLabel.text = balloonArray[0].label
+        self.balloonImage.image = balloonArray[currentIndex].image
+        self.balloonsLabel.text = balloonArray[currentIndex].label
 
     }
 
@@ -61,10 +62,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func nextButtonPressed(sender: AnyObject) {
-        // Pull an object out of the array at random and upate the image and label
-        let randomNumber = Int(arc4random_uniform(UInt32(99)))
-        self.balloonImage.image = balloonArray[randomNumber].image
-        self.balloonsLabel.text = balloonArray[randomNumber].label
+        
+        // Increment the index so the first button push (and subsequent pushes) changes the image
+        currentIndex += 1
+        
+        self.balloonImage.image = balloonArray[currentIndex].image
+        self.balloonsLabel.text = balloonArray[currentIndex].label
         
     }
 }
