@@ -17,8 +17,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+       
+        // Populate the array with 99 balloon entries
         createBalloons(99)
+        
+        // Set the initial image and label
         self.balloonImage.image = balloonArray[0].image
         self.balloonsLabel.text = balloonArray[0].label
 
@@ -29,7 +32,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+    // Populate the balloonArray object using the Int parameter passed to this function
     func createBalloons(number:Int) {
         for x in 1...number {
             var myBalloon = balloon()
@@ -51,11 +54,14 @@ class ViewController: UIViewController {
             } else {
                 myBalloon.label = "\(x) balloons"
             }
-        balloonArray.append(myBalloon)
+        
+            // Add the ojbect to the array
+            balloonArray.append(myBalloon)
         }
     }
 
     @IBAction func nextButtonPressed(sender: AnyObject) {
+        // Pull an object out of the array at random and upate the image and label
         let randomNumber = Int(arc4random_uniform(UInt32(99)))
         self.balloonImage.image = balloonArray[randomNumber].image
         self.balloonsLabel.text = balloonArray[randomNumber].label
