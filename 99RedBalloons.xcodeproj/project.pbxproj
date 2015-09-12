@@ -13,7 +13,6 @@
 		CBAB82121B9DD2C300BF452F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAB82111B9DD2C300BF452F /* Images.xcassets */; };
 		CBAB82151B9DD2C300BF452F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBAB82131B9DD2C300BF452F /* LaunchScreen.xib */; };
 		CBAB82211B9DD2C300BF452F /* _9RedBalloonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB82201B9DD2C300BF452F /* _9RedBalloonsTests.swift */; };
-		CBAB82301B9DD30200BF452F /* BerlinTVTower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBAB822B1B9DD30200BF452F /* BerlinTVTower.jpg */; };
 		CBAB82311B9DD30200BF452F /* RedBalloon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBAB822C1B9DD30200BF452F /* RedBalloon1.jpg */; };
 		CBAB82321B9DD30200BF452F /* RedBalloon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBAB822D1B9DD30200BF452F /* RedBalloon2.jpg */; };
 		CBAB82331B9DD30200BF452F /* RedBalloon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBAB822E1B9DD30200BF452F /* RedBalloon3.jpg */; };
@@ -42,7 +41,6 @@
 		CBAB821A1B9DD2C300BF452F /* 99RedBalloonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 99RedBalloonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAB821F1B9DD2C300BF452F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBAB82201B9DD2C300BF452F /* _9RedBalloonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9RedBalloonsTests.swift; sourceTree = "<group>"; };
-		CBAB822B1B9DD30200BF452F /* BerlinTVTower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BerlinTVTower.jpg; sourceTree = "<group>"; };
 		CBAB822C1B9DD30200BF452F /* RedBalloon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon1.jpg; sourceTree = "<group>"; };
 		CBAB822D1B9DD30200BF452F /* RedBalloon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon2.jpg; sourceTree = "<group>"; };
 		CBAB822E1B9DD30200BF452F /* RedBalloon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon3.jpg; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 		CBAB822A1B9DD30200BF452F /* 99RedBalloonsAssets */ = {
 			isa = PBXGroup;
 			children = (
-				CBAB822B1B9DD30200BF452F /* BerlinTVTower.jpg */,
 				CBAB822C1B9DD30200BF452F /* RedBalloon1.jpg */,
 				CBAB822D1B9DD30200BF452F /* RedBalloon2.jpg */,
 				CBAB822E1B9DD30200BF452F /* RedBalloon3.jpg */,
@@ -225,7 +222,6 @@
 				CBAB82341B9DD30200BF452F /* RedBalloon4.jpg in Resources */,
 				CBAB82121B9DD2C300BF452F /* Images.xcassets in Resources */,
 				CBAB82311B9DD30200BF452F /* RedBalloon1.jpg in Resources */,
-				CBAB82301B9DD30200BF452F /* BerlinTVTower.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

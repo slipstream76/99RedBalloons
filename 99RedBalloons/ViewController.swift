@@ -37,12 +37,10 @@ class ViewController: UIViewController {
             
             switch randomBalloonImageIndex {
             case 0:
-                myBalloon.image = UIImage(named: "BerlinTVTower.jpg")
-            case 1:
                 myBalloon.image = UIImage(named: "RedBalloon1.jpg")
-            case 2:
+            case 1:
                 myBalloon.image = UIImage(named: "RedBalloon2.jpg")
-            case 3:
+            case 2:
                 myBalloon.image = UIImage(named: "RedBalloon3.jpg")
             default:
                 myBalloon.image = UIImage(named: "RedBalloon4.jpg")
